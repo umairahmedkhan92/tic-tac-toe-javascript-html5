@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<title>Tic Tac Toe</title>
+	<!-- Application CSS -->
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+	<div class="canvas-wrapper">
+		<!-- Start Screen -->
+		<section id="start">
+			<h1 class="animated fadeInDown">Tic Tac Toe</h1>
+			<button class="button" onclick="startGame()">Start Game</button>
+		</section>
+		<!-- Start Screen Ends -->
+
+		<!-- Game Screen -->
+		<section id="game" class="hide">
+			<h1>Tic Tac Toe</h1>
+			<!-- Container for the game board -->
+			<main id="container"></main>
+			<button class="btn btn-primary" onclick="clearTiles()">Clear Board</button>
+			<br><label>Shake your device to clear the board</label></span>
+		</section>
+		<!-- Game Screen Ends -->
+	</div>
+
+	<!-- Application Scripts -->
+	<script src="js/shake.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
