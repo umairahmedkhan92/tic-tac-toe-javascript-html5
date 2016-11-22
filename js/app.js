@@ -14,7 +14,7 @@ var offset = 15;
 
 /* Draws the tic tac toe board. */
 function drawCanvas(){
-  container = document.getElementById("container");
+  var container = document.getElementById("container");
 
     /* Function reference for tile onclick event */
    	var tileClickEvent = function(index){
